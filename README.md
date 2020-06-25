@@ -19,8 +19,8 @@ pages:
 
 
 
-Directory tree (unused files/dirs excluded)
-djangoForm01/   (PROJECT)
+Directory tree (unused files/dirs excluded)  
+djangoForm01/   (PROJECT)  
 ├── db.sqlite3  
 ├── form    (APP)  
 │   ├── settings.py  
@@ -40,5 +40,5 @@ djangoForm01/   (PROJECT)
     └── pages  
         ├── about.html  
         └── index.html  
-        
+
 
