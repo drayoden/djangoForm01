@@ -15,7 +15,8 @@ base (master):
 
 pages:
   - create pages app: `django-admin startapp \<name>\>` -- 'pages' app is for rendering static pages, i.e. home, about, etc. other apps for non-static pages will be created later.
-  - 
+
+
 
 
 Directory tree (unused files/dirs excluded)
