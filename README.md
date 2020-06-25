@@ -20,15 +20,18 @@ pages:
 
 
 Directory tree (unused files/dirs excluded)
-`djangoForm01/   (PROJECT)`
-`├── db.sqlite3`
-`├── form    (APP)`
-`│   ├── settings.py`
-`│   ├── urls.py`
-`│   └── wsgi.py`
-`
+djangoForm01/   (PROJECT)
+
+├── db.sqlite3
+
+├── form    (APP)
+
+│   ├── settings.py
+
+│   ├── urls.py`
+│   └── wsgi.py`
 ├── manage.py
-├── pages
+├── pages   (APP)
 │   ├── admin.py
 │   ├── apps.py
 │   ├── models.py
@@ -42,4 +45,3 @@ Directory tree (unused files/dirs excluded)
         ├── about.html
         └── index.html
 
-`
