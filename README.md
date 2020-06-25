@@ -21,27 +21,24 @@ pages:
 
 Directory tree (unused files/dirs excluded)
 djangoForm01/   (PROJECT)
-
-├── db.sqlite3
-
-├── form    (APP)
-
-│   ├── settings.py
-
-│   ├── urls.py`
-│   └── wsgi.py`
-├── manage.py
-├── pages   (APP)
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── urls.py
-│   └── views.py
-├── README.md
-├── req.txt
-└── templates
-    ├── base.html
-    └── pages
-        ├── about.html
-        └── index.html
+├── db.sqlite3  
+├── form    (APP)  
+│   ├── settings.py  
+│   ├── urls.py  
+│   └── wsgi.py  
+├── manage.py  
+├── pages   (APP)  
+│   ├── admin.py  
+│   ├── apps.py  
+│   ├── models.py  
+│   ├── urls.py  
+│   └── views.py  
+├── README.md  
+├── req.txt  
+└── templates  
+    ├── base.html  
+    └── pages  
+        ├── about.html  
+        └── index.html  
+        
 
