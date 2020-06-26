@@ -5,4 +5,19 @@
     <h3>index.html</h3>
     <p>templates/pages/index.html<p>
 
+    <form onsubmit="return false;">
+        {# {% csrf_token %} #}
+        <div class="input-field">
+            <input type="text" id="email" class="validate">
+            <label for="email">email:</label>
+        </div>
+        <div class="input-field">
+            <textarea id="msg" cols="30" rows="10"></textarea>
+            <label for="msg">message:</label>
+        </div>
+        {# <input id="submit-contact" class="btn" type="submit"> #}
+        <button class="btn" onclick="submitContact()">Submit</button>
+    </form>
+    <span id="contact-response"></span>
+
 {% endblock %}
