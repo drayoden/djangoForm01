@@ -6,7 +6,7 @@
     <p>templates/pages/index.html<p>
 
     <form onsubmit="return false;">
-        {# {% csrf_token %} #}
+        {% csrf_token %}
         <div class="input-field">
             <input type="text" id="email" class="validate">
             <label for="email">email:</label>
