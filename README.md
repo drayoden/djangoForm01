@@ -1,4 +1,4 @@
-### django form test with fetch api
+### django sandbox - just messing around...
 ---
 - branches:
   - master - base working django install - NO html, db, views, forms, or templates. NOTE: /form/ is the base project folder (settings.py).
