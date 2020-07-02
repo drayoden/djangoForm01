@@ -66,10 +66,11 @@ a {
     padding: 1em;
 }
 
-
-
+// used with text reveal - see main.js
+// comment 'content' if not using text reveal
+// in main.js or h1 will not appear
 span:after {
-    // content: ' ';
+    content: ' ';
     position: absolute;
     left: 0;
     width: 100%;
