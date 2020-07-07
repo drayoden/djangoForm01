@@ -1,8 +1,8 @@
 body {
   height: 100%;
   margin: 0;
-  display: grid;
-  grid-template-columns: auto 30%;
+  /* display: grid; ** moved to #gsap1 */
+  /* grid-template-columns: auto 30%; ** moved to #gsap1 */
   font-family: "Montserrat";
 }
 
@@ -12,6 +12,11 @@ body {
 
 .line {
   position: absolute;
+}
+
+#gsap1 {
+  display: grid;
+  grid-template-columns: auto 30%;
 }
 
 main {
@@ -39,9 +44,10 @@ main .content p {
 
 aside {
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/windows.jpg");
-  background-size: cover;
+  background-size: cover;  /* prevents squishing the image */
   background-repeat: no-repeat;
   height: 100vh;
+  margin-top: 1vh;
 }
 
 img {
@@ -51,7 +57,7 @@ img {
   top: 20%;
 }
 
-a {
+.content a#cta {
   display: inline-block;
   background: #B100F2;
   color: white;
