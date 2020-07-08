@@ -79,3 +79,16 @@ span:after {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* page1 */
+
+.page1 p {
+  margin-bottom: 100px;
+}
+
+img.prop {
+  position: relative;
+  width: 100px ;
+  right: auto;
+  top: auto;
+}
