@@ -139,5 +139,9 @@ dmypy.json
 
 node_modules/
 
+# ignore videos
+*.mov
+*.mp4
+
 # End of https://www.toptal.com/developers/gitignore/api/django
 
