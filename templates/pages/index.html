@@ -1,10 +1,42 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
 
-<div class="container">
+<!-- <div class="container">
     <p>templates/pages/index.html</p>
-</div>
+</div> -->
 
+<!-- NOTE: nav/materialize are disabled in base.html -->
+
+<header class="v-header container">
+    
+    <div class="fullscreen-video-wrap">
+        <video src="{% static 'img/smoke.mp4' %}" type="video/mp4" autoplay loop muted="background"></video>
+    </div>
+
+    <div class="header-overlay"></div>
+    <div class="header-content">
+        <h3>These aren't the droids you're looking for...</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eligendi at placeat nemo laborum aliquid natus error optio sed! Repellendus!</p>
+        <a href="#sec" class="btn">Read More</a>
+    </div>
+
+</header>
+
+<section id="sec" class="section section-a">
+    <div class="container">
+        <h1>Section A</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam illo aliquam soluta veniam similique voluptatem autem expedita aperiam commodi vel ipsa porro quod est, ad nostrum nobis suscipit dolores? Quas consequuntur assumenda quia ad neque quaerat corporis expedita deleniti itaque perferendis delectus odit in eius, ullam iste iure et similique non cupiditate! Vitae quasi omnis quas doloremque fugit earum et. Aperiam deserunt, perspiciatis similique in at pariatur consequatur sed fugit, nobis dicta modi necessitatibus amet natus corporis sit dolorum soluta minus quas sapiente? Unde, id ex. Facilis ullam quo expedita, quisquam aspernatur debitis, quis ipsum dolor consequuntur, ducimus tenetur.</p>
+    </div>
+</section>
+
+<section class="section section-b">
+    <div class="container">
+        <h1>Section B</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam illo aliquam soluta veniam similique voluptatem autem expedita aperiam commodi vel ipsa porro quod est, ad nostrum nobis suscipit dolores? Quas consequuntur assumenda quia ad neque quaerat corporis expedita deleniti itaque perferendis delectus odit in eius, ullam iste iure et similique non cupiditate! Vitae quasi omnis quas doloremque fugit earum et. Aperiam deserunt, perspiciatis similique in at pariatur consequatur sed fugit, nobis dicta modi necessitatibus amet natus corporis sit dolorum soluta minus quas sapiente? Unde, id ex. Facilis ullam quo expedita, quisquam aspernatur debitis, quis ipsum dolor consequuntur, ducimus tenetur.</p>
+    </div>
+</section>
 
 {% endblock %}
+ 
