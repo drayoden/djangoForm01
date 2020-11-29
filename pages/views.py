@@ -18,12 +18,14 @@ def about(request):
 def contact(request):
     if request.method == "POST":
         data = json.loads(request.body.decode("utf-8"))
-        print(data)
-        print(data['email'])
-        print(data['msg'])
+        #print(data)
+        #print(data['email'])
+        #print(data['msg'])
 
         form = ContactForm(data)
-        print(form)
+        #print(form)
+
+        # saves to db
         if form.is_valid():
             form.save()
          
