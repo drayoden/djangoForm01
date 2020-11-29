@@ -122,5 +122,15 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [ 
-    os.path.join(BASE_DIR, 'form/static')
+    BASE_DIR/'static'
 ]
+
+# hex50 status messages for development
+if DEBUG:
+    print(f'BASE_DIR: {BASE_DIR}')
+    print(f'SECRET_KEY: {SECRET_KEY}')
+    print(f'TEMPLATES: {TEMPLATES}')
+    # print(f'Path(__file__): {Path(__file__)}')
+    print(f'STATIC_ROOT: {STATIC_ROOT}')
+    print(f'STATIC_URL: {STATIC_URL}')
+    # print(f'STATICFILES_DIRS: {STATICFILES_DIRS}')
