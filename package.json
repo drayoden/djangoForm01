@@ -1,0 +1,41 @@
+{
+  "name": "djangoSandbox",
+  "version": "1.0.0",
+  "description": "--- transition from materialize to tailwindCSS",
+  "main": "index.js",
+  "dependencies": {
+    "anymatch": "^3.1.1",
+    "autoprefixer": "^10.0.4",
+    "binary-extensions": "^2.1.0",
+    "braces": "^3.0.2",
+    "chokidar": "^3.4.0",
+    "fill-range": "^7.0.1",
+    "glob-parent": "^5.1.1",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.1",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.2.2",
+    "postcss": "^8.1.10",
+    "readdirp": "^3.4.0",
+    "sass": "^1.26.9",
+    "tailwindcss": "^2.0.1",
+    "to-regex-range": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "buildcss": "tailwind build src/styles.css -o form/static/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drayoden/djangoSandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drayoden/djangoSandbox/issues"
+  },
+  "homepage": "https://github.com/drayoden/djangoSandbox#readme"
+}

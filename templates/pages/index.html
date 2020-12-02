@@ -2,22 +2,31 @@
 
 {% block content %}
 
-    <h3>index.html</h3>
-    <p>templates/pages/index.html<p>
 
-    <form onsubmit="return false;">
-        {% csrf_token %}
-        <div class="input-field">
-            <input type="text" id="email" class="validate">
-            <label for="email">email:</label>
+    
+    <div>
+        <h1 class="text-4xl">djangoSandbox</h1>
+        <p>templates/pages/index.html<p>
+
+        <form action="#" method="POST" onsubmit="return false" id="formContact">
+            {% csrf_token %}
+            <div class="mt-5">
+                <label class="uppercase text-xs" for="email">email:</label>
+                <input type="text" id="email" class="w-full text-black mb-5 py-3 px-2 bg-gray-300 rounded border" placeholder="joe@domain.com">
+            </div>
+            <div class="mt-5">
+                <label class="uppercase text-xs" for="msg">message:</label>
+                <textarea class="w-full text-black mb-5 py-3 px-2 bg-gray-300 rounded border resize-none" id="msg" cols="30" rows="2" value="type message here"></textarea>
+            </div>
+            {# <input id="submit-contact" type="submit"> #}  <!-- template comment -->
+            <button type="button" id="formsubmit" onclick="submitbutton()" class="bg-yellow-300 px-4 py-2 border rounded curs">Submit</button>
+            <!-- <div id="formsubmit" onclick="submitbutton()" class="bg-yellow-300 px-4 py-2 border rounded curs">Submit</div> -->
+        </form>
+
+        <div class="pt-5">
+            <span id="contact-response"></span>
         </div>
-        <div class="input-field">
-            <textarea id="msg" cols="30" rows="10"></textarea>
-            <label for="msg">message:</label>
-        </div>
-        {# <input id="submit-contact" class="btn" type="submit"> #}
-        <button class="btn" onclick="submitContact()">Submit</button>
-    </form>
-    <span id="contact-response"></span>
+    
+    </div>
 
 {% endblock %}
