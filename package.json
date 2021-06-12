@@ -11,7 +11,7 @@
     "is-binary-path": "^2.1.0",
     "fill-range": "^7.0.1",
     "is-glob": "^4.0.1",
-    "glob-parent": "^5.1.1",
+    "glob-parent": "^5.1.2",
     "is-number": "^7.0.0",
     "normalize-path": "^3.0.0",
     "picomatch": "^2.2.2",
